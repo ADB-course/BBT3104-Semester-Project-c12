@@ -4,7 +4,7 @@ CREATE TABLE Network_Device(
     Device_ID INT PRIMARY KEY,
     Device_Type VARCHAR(50),
     IP_address VARCHAR(15) UNIQUE,
-    Device_Location VARCHAR(50)
+    Location VARCHAR(50)
 ) ENGINE=INNODB;
 --Server Table
 CREATE TABLE Server(
